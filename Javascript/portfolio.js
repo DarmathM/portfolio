@@ -175,7 +175,7 @@ const projectData = {
     color: "hsl(107, 100%, 63%)",
     title: "Project Gamma",
     signal: "/// DATASTREAM ACTIVE",
-    image: "/img-portfolio/subseatronics.JPG",
+    image: "img-portfolio/subseatronics.JPG",
     status: "Deployed",
     access: "Public",
     purpose: [
@@ -193,7 +193,7 @@ const projectData = {
     color: "hsl(180, 100%, 50%)",
     title: "Pizza UI Project",
     signal: "/// ORDER INTERFACE ONLINE",
-    image: "/img-portfolio/pizza.JPG",
+    image: "img-portfolio/pizza.JPG",
     status: "deployed",
     access: "Public",
     purpose: [
@@ -211,7 +211,7 @@ const projectData = {
     color: "hsl(300, 100%, 58%)",
     title: "Dashboard UI Project",
     signal: "/// BUILD SEQUENCE IN PROGRESS",
-    image: "/img-portfolio/card-two.png",
+    image: "img-portfolio/card-two.png",
     status: "In progress",
     access: "Private",
     purpose: [
