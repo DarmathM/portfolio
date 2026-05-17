@@ -211,7 +211,7 @@ const projectData = {
     color: "hsl(300, 100%, 58%)",
     title: "Dashboard UI Project",
     signal: "/// BUILD SEQUENCE IN PROGRESS",
-    image: "img-portfolio/card-two.png",
+    image: "img-portfolio/planning_SaaS.JPG",
     status: "In progress",
     access: "Private",
     purpose: [
