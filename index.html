@@ -75,13 +75,19 @@
 
 					<p class="hero-data">/// neural_interface_online</p>
 				</div>
-				<a href="#work" class="menu"><span class="material-symbols-outlined">folder_data</span>Work Node</a>
-				<a href="#build-system" class="menu"><span class="material-symbols-outlined">stacks</span>Stack
-					PROTOCOLS</a>
-				<a href="#build_process" class="menu"><span class="material-symbols-outlined">folder_data</span>Build
-					Process</a>
+				<a href="#work" class="menu"><span class="material-symbols-outlined">folder_data</span><span
+						data-i18n="nav.work">Work Node</span></a>
+				<a href="#build-system" class="menu"><span class="material-symbols-outlined">stacks</span><span
+						data-i18n="nav.stack">Stack PROTOCOLS</span></a>
+				<a href="#build_process" class="menu"><span class="material-symbols-outlined">folder_data</span><span
+						data-i18n="nav.process">Build Process</span></a>
 				<a href="#contact-channel" class="menu"><span
-						class="material-symbols-outlined">wifi_tethering</span>COMM_LINK</a>
+						class="material-symbols-outlined">wifi_tethering</span><span
+						data-i18n="nav.contact">COMM_LINK</span></a>
+				<div class="language-switch" aria-label="Language selector">
+					<button type="button" data-lang-option="en" aria-pressed="true">EN</button>
+					<button type="button" data-lang-option="fr" aria-pressed="false">FR</button>
+				</div>
 				<div class="close-nav">⨂</div>
 			</div>
 			<div class="nav-cyber-bar">
@@ -93,35 +99,35 @@
 		<div class="hero-intro">
 
 			<div class="list-container">
-				<p>Quick access</p>
+				<p data-i18n="quick.title">Quick access</p>
 				<a class="hero-list" href="#work">
-					<div class="hero-box">01</div>Work Node
+					<div class="hero-box">01</div><span data-i18n="quick.work">Work Node</span>
 				</a>
 				<a class="hero-list" href="#build-system">
-					<div class="hero-box">02</div>Frontend stack
+					<div class="hero-box">02</div><span data-i18n="quick.stack">Frontend stack</span>
 				</a>
 				<a class="hero-list" href="#build_process">
-					<div class="hero-box">03</div>build process
+					<div class="hero-box">03</div><span data-i18n="quick.process">build process</span>
 				</a>
 				<a class="hero-list" href="#contact-channel">
-					<div class="hero-box">04</div>Contact channel
+					<div class="hero-box">04</div><span data-i18n="quick.contact">Contact channel</span>
 				</a>
 			</div>
 
 			<div class="hero-main">
 				<div class="hero-topline">
-					<span>Frontend developer · UI designer</span>
+					<span data-i18n="hero.role">Frontend developer · UI designer</span>
 
 				</div>
 
 				<div class="hero-content">
 					<div class="hero-copy">
 
-						<h1>
+						<h1 data-i18n="hero.title">
 							Interfaces with
 							<span>sharp atmosphere.</span>
 						</h1>
-						<p>
+						<p data-i18n="hero.copy">
 							I create responsive web interfaces <br>
 							with strong visual direction,
 							<br>
@@ -142,12 +148,12 @@
 						</div>
 						<div class="profile-body">
 							<div class="profile-kicker">
-								<span>Profile ID</span>
+								<span data-i18n="profile.id">Profile ID</span>
 								<strong>DX-042</strong>
 							</div>
 
 							<h2>Darren</h2>
-							<p>
+							<p data-i18n="profile.copy">
 								Developer focused on immersive frontend, UI precision and
 								controlled cyberpunk motion.
 							</p>
@@ -168,18 +174,18 @@
 	<section class="build-system" id="build-system" style="--color: hsl(50, 98%, 64%);">
 		<div class="build-intro">
 			<div class="node">
-				<h2>stack protocols</h2>
-				<p>/// loading stack from archives...</p>
+				<h2 data-i18n="stack.kicker">stack protocols</h2>
+				<p data-i18n="stack.signal">/// loading stack from archives...</p>
 			</div>
-			<h1>Digital systems <br>powered by <br>modern stack.</h1>
-			<p>
+			<h1 data-i18n="stack.title">Digital systems <br>powered by <br>modern stack.</h1>
+			<p data-i18n="stack.copy">
 				Portfolio concept for a developer who creates precise interfaces, responsive
 				websites, visual systems and motion-driven user experiences.
 			</p>
 			<div class="build-actions">
-				<a class="btn-access" href="#work">View projects <span
+				<a class="btn-access" href="#work"><span data-i18n="stack.viewProjects">View projects</span> <span
 						class="material-symbols-outlined">arrow_forward_ios</span></a>
-				<a class="cyber-btn" href="#contact-channel">Start a project ≥</a>
+				<a class="cyber-btn" href="#contact-channel" data-i18n="stack.startProject">Start a project ≥</a>
 			</div>
 		</div>
 		<div class="dim-container">
@@ -211,20 +217,20 @@
 
 	<section class="build-process" id="build_process" style="--color: hsl(50, 98%, 64%);">
 		<div class="node">
-			<h2>Build Process</h2>
-			<p>/// mapping interface production...from design signal to live deployment.</p>
+			<h2 data-i18n="process.kicker">Build Process</h2>
+			<p data-i18n="process.signal">/// mapping interface production...from design signal to live deployment.</p>
 		</div>
 
 		<div class="process-timeline">
 			<article class="process-log" style="--log-color: #00f5ff;">
 				<div class="process-date">
 					<span class="material-symbols-outlined">calendar_month</span>
-					01 / discovery + figma
+					<span data-i18n="process.step1.date">01 / discovery + figma</span>
 				</div>
 				<div class="process-copy">
 					<div>
-						<h3>UI/UX Design</h3>
-						<p>
+						<h3 data-i18n="process.step1.title">UI/UX Design</h3>
+						<p data-i18n="process.step1.copy">
 							I start by defining the interface direction in Figma: structure, user flow, visual rhythm,
 							component states and responsive behavior before moving into code.
 						</p>
@@ -241,12 +247,12 @@
 			<article class="process-log" style="--log-color: hsl(300, 100%, 58%);">
 				<div class="process-date">
 					<span class="material-symbols-outlined">terminal</span>
-					02 / stack + build
+					<span data-i18n="process.step2.date">02 / stack + build</span>
 				</div>
 				<div class="process-copy">
 					<div>
-						<h3>Coding Solutions</h3>
-						<p>
+						<h3 data-i18n="process.step2.title">Coding Solutions</h3>
+						<p data-i18n="process.step2.copy">
 							I choose the stack around the project goal, then build the interface with clean HTML, CSS
 							and
 							JavaScript logic, keeping motion, layout and performance under control.
@@ -264,12 +270,12 @@
 			<article class="process-log" style="--log-color: hsl(50, 98%, 64%);">
 				<div class="process-date">
 					<span class="material-symbols-outlined">cloud_upload</span>
-					03 / publish + support
+					<span data-i18n="process.step3.date">03 / publish + support</span>
 				</div>
 				<div class="process-copy">
 					<div>
-						<h3>Maintenance / Publish</h3>
-						<p>
+						<h3 data-i18n="process.step3.title">Maintenance / Publish</h3>
+						<p data-i18n="process.step3.copy">
 							After final testing, I prepare the website for hosting, publish the live version, and keep
 							the
 							project ready for updates, fixes and future improvements.
@@ -292,8 +298,8 @@
 
 	<section class="card-section" id="work">
 		<div class="node" style="--color: #00f5ff;">
-			<h2>Work Node</h2>
-			<p>/// accessing deployments...classified builds and experimental protocols loaded.
+			<h2 data-i18n="work.kicker">Work Node</h2>
+			<p data-i18n="work.signal">/// accessing deployments...classified builds and experimental protocols loaded.
 				<br>
 				select a node to proceed.
 			</p>
@@ -311,7 +317,7 @@
 							<path class="scan-fill" d="M188 43 H276 L270 50 H182 Z" />
 							<path class="scan-chip" d="M282 43 H302 L298 50 H278 Z" />
 						</svg>
-						<span>Pizza UI Project</span>
+						<span data-i18n="work.card1.label">Pizza UI Project</span>
 						<small>01</small>
 					</div>
 					<div class="card-img">
@@ -323,7 +329,7 @@
 							<span>⁄ ⁄ ⁄</span>
 							01 node active
 						</p>
-						<button value="pizza">View <span
+						<button value="pizza"><span data-i18n="work.view">View</span> <span
 								class="material-symbols-outlined">arrow_forward_ios</span></button>
 					</div>
 
@@ -342,7 +348,7 @@
 							<path class="scan-fill" d="M188 43 H276 L270 50 H182 Z" />
 							<path class="scan-chip" d="M282 43 H302 L298 50 H278 Z" />
 						</svg>
-						<span>Dashboard UI Project</span>
+						<span data-i18n="work.card2.label">Dashboard UI Project</span>
 						<small>02</small>
 					</div>
 					<div class="card-img">
@@ -353,7 +359,7 @@
 							<span>⁄ ⁄ ⁄</span>
 							02 node active
 						</p>
-						<button value="dashboard">View <span
+						<button value="dashboard"><span data-i18n="work.view">View</span> <span
 								class="material-symbols-outlined">arrow_forward_ios</span></button>
 					</div>
 				</div>
@@ -372,7 +378,7 @@
 							<path class="scan-fill" d="M188 43 H276 L270 50 H182 Z" />
 							<path class="scan-chip" d="M282 43 H302 L298 50 H278 Z" />
 						</svg>
-						<span>Subseatronics Project</span>
+						<span data-i18n="work.card3.label">Subseatronics Project</span>
 						<small>03</small>
 					</div>
 					<div class="card-img">
@@ -383,7 +389,7 @@
 							<span>⁄ ⁄ ⁄</span>
 							03 node active
 						</p>
-						<button value="subsea">View <span
+						<button value="subsea"><span data-i18n="work.view">View</span> <span
 								class="material-symbols-outlined">arrow_forward_ios</span></button>
 					</div>
 				</div>
@@ -401,7 +407,7 @@
 							<path class="scan-fill" d="M188 43 H276 L270 50 H182 Z" />
 							<path class="scan-chip" d="M282 43 H302 L298 50 H278 Z" />
 						</svg>
-						<span>Interface System Project</span>
+						<span data-i18n="work.card4.label">Interface System Project</span>
 						<small>04</small>
 					</div>
 					<div class="card-img">
@@ -413,7 +419,7 @@
 							<span>⁄ ⁄ ⁄</span>
 							01 node active
 						</p>
-						<button value="pizza">View <span
+						<button value="pizza"><span data-i18n="work.view">View</span> <span
 								class="material-symbols-outlined">arrow_forward_ios</span></button>
 					</div>
 
@@ -434,18 +440,19 @@
 					<img src="/img-portfolio/subseatronics.JPG" alt="project-img" loading="lazy">
 					<div class="project-status">
 						<div class="status">
-							<p>Status</p>
+							<p data-i18n="project.status">Status</p>
 							<span>Deployed</span>
 						</div>
 						<div class="status">
-							<p>Access Level</p>
+							<p data-i18n="project.accessLevel">Access Level</p>
 							<span>Public</span>
 						</div>
 					</div>
 				</div>
 				<div class="details-view">
 					<div class="detail">
-						<h4><span class="material-symbols-outlined">document_scanner</span>directive / purpose</h4>
+						<h4><span class="material-symbols-outlined">document_scanner</span><span
+								data-i18n="project.purposeTitle">directive / purpose</span></h4>
 
 						<p>Developed a precise, appealing, and easy to use subsea solutions web interface for a real
 							client.
@@ -469,8 +476,8 @@
 						</div>
 					</div>
 					<div class="detail">
-						<h4><span class="material-symbols-outlined">timelapse</span>Timeframe</h4>
-						<span>03 weeks</span>
+						<h4><span class="material-symbols-outlined">timelapse</span><span data-i18n="project.timeframeTitle">Timeframe</span></h4>
+						<span class="timeframe">03 weeks</span>
 					</div>
 					<div class="detail-cta">
 						<button><a href="https://darmathm.github.io/subseatronics_project/" target="_blank">Initiate
@@ -483,15 +490,15 @@
 
 	<section class="contact-channel" id="contact-channel" style="--color: hsl(50, 98%, 64%);">
 		<div class="node">
-			<h2>⪰ Contact Channel</h2>
-			<p>/// establish secure connection...waiting for input.</p>
+			<h2 data-i18n="contact.kicker">⪰ Contact Channel</h2>
+			<p data-i18n="contact.signal">/// establish secure connection...waiting for input.</p>
 		</div>
 		<div class="form-container">
 			<div class="form">
 				<div class="user-info">
 					<div>
-						<label for="username">user_id / Name</label>
-						<input placeholder="Name..." id="username" />
+						<label for="username" data-i18n="contact.nameLabel">user_id / Name</label>
+						<input placeholder="Name..." id="username" data-i18n-placeholder="contact.namePlaceholder" />
 					</div>
 					<div>
 						<label for="email">Email</label>
@@ -499,27 +506,29 @@
 					</div>
 				</div>
 				<div class="user-msg">
-					<label for="usermsg">Data payload / Message</label>
-					<textarea id="usermsg" placeholder="Transmit Data..." rows="10"></textarea>
+					<label for="usermsg" data-i18n="contact.messageLabel">Data payload / Message</label>
+					<textarea id="usermsg" placeholder="Transmit Data..." rows="10"
+						data-i18n-placeholder="contact.messagePlaceholder"></textarea>
 				</div>
-				<button>Transmit<span class="material-symbols-outlined">send</span></button>
+				<button><span data-i18n="contact.submit">Transmit</span><span class="material-symbols-outlined">send</span></button>
 			</div>
 		</div>
 	</section>
 
 	<footer>
-		<div class="footer-right-col">
+		<div class="footer-left-col">
 			<p><strong>Email:</strong> darrendarmath@gmail.com</p>
 			<div class="social-media">
-				<img src="icons/github.png" alt="github icons" loading="lazy" />
-				<img src="icons/linkedin.png" alt="linkedin icons" loading="lazy">
+				<a href="https://github.com/DarmathM" target="_blank"><img src="icons/github.png" alt="github icons" loading="lazy" /></a>
+				<a href="https://www.linkedin.com/in/darren-marionb18" target="_blank"><img src="icons/linkedin.png" alt="linkedin icons" loading="lazy"></a>
 
 			</div>
-			<p>Made by Darren</p>
+			<p data-i18n="footer.made">Made by Darren</p>
 		</div>
 
 		<div class="footer-right-col">
-			<p>All Right Reserved</p>
+			
+			<p data-i18n="footer.rights">© All Right Reserved</p>
 		</div>
 
 	</footer>
