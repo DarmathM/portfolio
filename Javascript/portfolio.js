@@ -215,15 +215,16 @@ const projectData = {
     status: "In progress",
     access: "Private",
     purpose: [
-      "Dashboard interface currently in progress, designed first in Figma to lock the structure, data rhythm, and main user flows.",
-      "The technical direction is built around Node.js and SQLite3, with the goal of creating a clear, fast, and maintainable admin experience.",
+      "Restaurant planning SaaS currently in development, built with Node.js and SQLite3. The platform is designed to manage reservations in real time through a dynamic scheduling interface.",
+      "Bookings are instantly synchronized with the planning system and can be modified dynamically without interrupting the workflow.", 
+      "The goal is to provide restaurants with a fast, clear, and maintainable reservation management experience.",
       "The next step is to connect the interface states with the backend logic and refine the data views."
     ],
-    stack: ["Figma", "Node.js", "SQLite3"],
-    timeframe: "In progress",
+stack: ["Figma", "Node.js", "SQLite3"],
+  timeframe: "In progress",
     ctaLabel: "In Progress",
-    ctaUrl: "#",
-    ctaDisabled: true
+      ctaUrl: "#",
+        ctaDisabled: true
   }
 };
 
@@ -243,7 +244,7 @@ function setProjectOverlay(project) {
   image.alt = `${project.title} preview`;
   statusValues[0].textContent = project.status;
   statusValues[1].textContent = project.access;
-  purpose.innerHTML = project.purpose.join("<br>");
+  purpose.innerHTML = project.purpose.join("<br> <br>");
   stackContainer.innerHTML = project.stack.map(item => `<div>${item}</div>`).join("");
   timeframe.textContent = project.timeframe;
 
