@@ -1933,6 +1933,7 @@ nav ul.show li:hover {
     left: clamp(12px, 2vw, 18px);
     right: clamp(12px, 2vw, 18px);
     height: 54px;
+    max-width: 400px;
     color: var(--color);
     opacity: 0;
     transform: translate3d(-14px, -6px, 0);
@@ -1942,6 +1943,7 @@ nav ul.show li:hover {
         filter 0.35s ease;
     pointer-events: none;
     filter: drop-shadow(0 0 8px color-mix(in srgb, var(--color) 55%, transparent));
+
 }
 
 .project-scan-label svg {
@@ -1974,6 +1976,7 @@ nav ul.show li:hover {
 .project-scan-label small {
     position: absolute;
     top: 13px;
+    
     color: currentColor;
     font-family: "Orbitron", var(--font-display);
     font-style: italic;
@@ -1989,7 +1992,7 @@ nav ul.show li:hover {
 
 .project-scan-label span {
     left: clamp(52px, 18%, 70px);
-    right: 52px;
+    right: 50px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
